@@ -1,0 +1,23 @@
+
+# Ambiente virtual e cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Arquivos locais e segredos
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Logs
+*.log
+# Base original de dados (mantida localmente)
+dados/original/animal-shelter-intakes-and-outcomes.csv

@@ -1,0 +1,9 @@
+﻿Parametro,Valor
+modelo,Regressão Logística
+class_weight,balanced
+max_iter,1000
+random_state,42
+proporcao_treino,0.6
+proporcao_validacao,0.2
+proporcao_teste,0.2
+quantidade_caracteristicas,142
